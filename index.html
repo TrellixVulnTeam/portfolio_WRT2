@@ -16,16 +16,34 @@
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="container">
-        <div class="navbar-band">
-          <a href="#" class="navbar-item"
-            ><figure class="image">
+        <div class="navbar-brand">
+          <a href="#" class="navbar-item">
+            <figure class="image">
               <img
-                src="/ressources/images/ufo-logo.svg
-              "
-                alt="logo du portfolio"
+                src="/ressources/images/ufo-logo.svg"
+                alt="logo principal du portfolio"
               />
             </figure>
           </a>
+          <div
+            class="navbar-burger burger"
+            id="nav-btn"
+            data-target="menu-content"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="navbar-menu" id="menu-content">
+          <div class="navbar-end has-text-dark">
+            <a href="#" class="navbar-item"> Home </a>
+            <a href="#" class="navbar-item"> About me </a>
+            <a href="#" class="navbar-item"> Skills </a>
+            <a href="#" class="navbar-item"> Contact </a>
+          </div>
         </div>
       </div>
     </nav>
