@@ -1,0 +1,8 @@
+@font-face {
+    font-family: york;
+    src: url(../ressources/fonts/yorkwhiteletter/yorkwhiteletter.otf);
+}
+
+h1, h2 {
+    font-family: york;
+}
